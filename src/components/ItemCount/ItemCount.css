@@ -1,0 +1,43 @@
+button {
+    background-color: rgb(255, 155, 25);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    height: 25px;
+}
+
+button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card{ 
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+    }
+}
