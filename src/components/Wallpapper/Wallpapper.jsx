@@ -5,7 +5,7 @@ import './Wallpapper.css';
 function Wallpapper() {
   return (
     <div className="carousel-container">
-      <Image src="./public/wallpeper2.jpg" fluid />
+      <Image src="/wallpeper2.jpg" fluid />
       
     </div>
   );

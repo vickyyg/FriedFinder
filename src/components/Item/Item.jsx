@@ -16,7 +16,7 @@ const Product = () => {
   const products = [
     {
       id: 1,
-      image: './public/aroscebolla.webp',
+      image: '/aroscebolla.webp',
       name: 'Full Burguer + Onion Rings',
       description: 'Potato bread, pickles, lettuce, tomato and meat',
       price: '3.00',
@@ -24,7 +24,7 @@ const Product = () => {
     },
     {
       id: 2,
-      image: './public/CheeseBurguers.png',
+      image: '/CheeseBurguers.png',
       name: '2x1 Full Burguer + Cheddar',
       description: 'Onion, cheddar cheese, pickles, mayonnaise, tomato and meat',
       price: '4.99',
@@ -32,21 +32,21 @@ const Product = () => {
     },
     {
       id: 3,
-      image: './public/asadotira.jpg',
+      image: '/asadotira.jpg',
       name: 'Argentinian Burguer',
       description: 'Criolla sauce, meat tira de asado, cheddar cheese and caramelized onion',
       price: '6.00',
     },
     {
       id: 4,
-      image: './public/veggie.webp',
+      image: '/veggie.webp',
       name: 'Veggie Beet Burguer',
       description: 'Beet burger, avocado, carrot strips and lettuce',
       price: '3.75',
     },
     {
       id: 5,
-      image: './public/pollofrito.jpg',
+      image: '/pollofrito.jpg',
       name: 'Fried Chicken',
       description: 'Fried chicken without oats, barley or rye',
       price: '5.00',
@@ -54,14 +54,14 @@ const Product = () => {
     },
     {
       id: 6,
-      image: './public/papasbacon.webp',
+      image: '/papasbacon.webp',
       name: 'Bacon Fries',
       description: 'Fries with bacon and cheddar',
       price: '2.00',
     },
     {
       id: 7,
-      image: './public/hamburpollofrito.jpg',
+      image: '/hamburpollofrito.jpg',
       name: 'Chicken Burguer',
       description: 'Chicken, cheddar, Russian cheese, onion, tomato, lettuce and red bell pepper',
       price: '4.50',
@@ -69,7 +69,7 @@ const Product = () => {
     },
     {
       id: 8,
-      image: './public/huevo.jpg',
+      image: '/huevo.jpg',
       name: 'Fried Egg Burguer',
       description: 'Meat, fried egg, tomato and parmesan cheese',
       price: '4.95',
@@ -77,7 +77,7 @@ const Product = () => {
     },
     {
       id: 9,
-      image: './public/4pisos.jpg',
+      image: '/4pisos.jpg',
       name: 'Four Meat Burguer',
       description: '4 meats, mozzarella, bacon, cheddar and caramelized onion',
       price: '6.00',

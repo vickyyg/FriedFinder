@@ -12,7 +12,7 @@ function Navegador() {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src="./public/logo2.png"
+              src="/logo2.png"
               style={{ width: "250px", height: "100px" }}
               alt="Logo"
               className="logo-img"
